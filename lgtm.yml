@@ -1,0 +1,9 @@
+extraction:
+  cpp:
+    prepare:
+      packages: "libunbound"
+    configure:
+      command:
+      - "./autogen.sh"
+      - "./configure"
+
